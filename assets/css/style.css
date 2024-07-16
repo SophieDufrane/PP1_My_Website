@@ -17,12 +17,16 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: "Abel", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     font-size: 150%;
 }
+
+
+
+
 
 header {
     background-color: #525152;
@@ -81,6 +85,28 @@ main {
     flex: 1 0 auto;
 }
 
+#welcome-box {
+    background: url("./images/code-black-white.webp") no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay-text {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid #df6243;
+    font-size: 100%;
+    width: 50%;
+    padding: 25px;
+}
+
+#overlay-text>h2, #overlay-text>p {
+    color: #fafafa;
+    text-align: center;
+}
+
 footer {
     background-color: #525152;
 }
@@ -99,4 +125,3 @@ footer {
     padding: 5px;
 
 }
-
