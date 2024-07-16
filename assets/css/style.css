@@ -42,7 +42,7 @@ header a {
 }
 
 #menu {
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 #menu li {
@@ -57,11 +57,10 @@ nav {
     left: 0;
     padding: 5px 12px;
     display: none;
-    /* the top of the element (nav) should start at the bottom of its parent (header). 0% = top of the parent, 100% = bottom of it */
     top: 100%;
 }
 
-/* Navbar with dropdeown toggle, code from Love Running project CI*/
+/* Navbar with dropdown toggle, code from Love Running project CI*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -79,6 +78,8 @@ nav {
 main {
     background-color: lightblue;
     margin-top: 44px;
+    /* shorthand for flex-grow, flex-shrink, flex-basis > Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 footer {
