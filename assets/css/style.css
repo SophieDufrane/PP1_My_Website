@@ -18,8 +18,30 @@ body {
 }
 
 header {
-background-color: lightcoral;
+    background-color: #525152;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
+
+header a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
 
 main {
     background-color: lightblue;
@@ -28,4 +50,3 @@ main {
 footer {
     background-color: lightgrey;
 }
-
