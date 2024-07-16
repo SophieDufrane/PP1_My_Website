@@ -17,8 +17,16 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+    font-family: "Abel", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+
 header {
     background-color: #525152;
+    padding: 5px 12px;
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -30,21 +38,47 @@ header {
 header a {
     color: #fafafa;
     text-decoration: none;
+    font-size: 110%;
 }
 
 #menu {
-    list-style-type: none;
+    list-style-type: none;    
 }
 
 #menu li {
     color: #fafafa;
-    font-size: 1.2rem;
     margin-bottom: 10px;
+}
+
+nav {
+    position: absolute;
+    background-color: #525152;
+    width: 100%;
+    left: 0;
+    padding: 5px 12px;
+    display: none;
+    /* the top of the element (nav) should start at the bottom of its parent (header). 0% = top of the parent, 100% = bottom of it */
+    top: 100%;
+}
+
+/* Navbar with dropdeown toggle, code from Love Running project CI*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1.5rem;
+    color: #fafafa;
 }
 
 
 main {
     background-color: lightblue;
+    margin-top: 44px;
 }
 
 footer {
