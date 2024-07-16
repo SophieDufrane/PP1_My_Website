@@ -86,3 +86,18 @@ footer {
     background-color: #525152;
 }
 
+#social-medias {
+    text-align: center;
+    padding: 5px 12px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-medias i {
+    color: #fafafa;
+    font-size: 150%;
+    padding: 5px;
+
+}
+
