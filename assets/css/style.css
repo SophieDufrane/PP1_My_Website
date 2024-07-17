@@ -112,7 +112,7 @@ main {
     margin: 20px auto;
 }
 
-#presentation>h2 {
+#presentation h2 {
     margin-bottom: 20px;
 }
 
@@ -145,12 +145,11 @@ main {
     color: #df6243;
 }
 
-#image {
+#picture-of-me {
     background: url("./images/picture-me-black-white.webp") no-repeat top center / cover;
     transform: scaleX(-1);
     height: 300px;
     width: 300px;
-    margin-left: 15px;
     border-radius: 25% 0 25% 0;
 }
 
