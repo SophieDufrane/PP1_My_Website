@@ -17,17 +17,16 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Abel", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-size: 150%;
+    font-size: 1.5em;
 }
 
-
-
-
-
+/* Header section */
 header {
     background-color: #525152;
     padding: 5px 12px;
@@ -78,13 +77,13 @@ nav {
     color: #fafafa;
 }
 
-
 main {
     margin-top: 44px;
     /* shorthand for flex-grow, flex-shrink, flex-basis > Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
+/* Welcome section */
 #welcome-box {
     background: url("./images/code-black-white.webp") no-repeat center center/cover;
     width: 100%;
@@ -102,17 +101,42 @@ main {
     padding: 25px;
 }
 
-#overlay-text>h2, #overlay-text>p {
+#overlay-text>h2,
+#overlay-text>p {
     color: #fafafa;
     text-align: center;
 }
 
-#about-me-img {
+/* Presentation section */
+#presentation {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#presentation h2 {
+    margin-bottom: 20px;
+}
+
+
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#about-me-pitch hr {
+    border-top: 1px solid #252525;
+    max-width: 300px;
+    margin: 5px 0 15px 0;
+}
+
+#shape-img {
     background: url("./images/picture-me-black-white.webp") no-repeat top center / cover;
     transform: scaleX(-1);
     height: 90vw;
     width: 90vw;
-    margin: 20px 0;
+    margin-left: 15px;
     border-radius: 25% 0 25% 0;
     max-width: 300px;
     max-height: 300px;
