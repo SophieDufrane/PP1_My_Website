@@ -153,6 +153,50 @@ main {
     border-radius: 25% 0 25% 0;
 }
 
+/* Skills section */
+#skills {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills-detail-blue,
+#skills-detail-beige,
+#skills-detail-orange {
+    color: #fafafa;
+    padding: 10px;
+}
+
+#skills-detail-blue {
+    background-color: #364a75;
+}
+
+#skills-detail-beige {
+    background-color: #a1896b;
+}
+
+#skills-detail-orange {
+    background-color: #df6243;
+}
+
+.skills-detail-list li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.skills-detail-icon i {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/* Footer section */
 footer {
     background-color: #525152;
 }
