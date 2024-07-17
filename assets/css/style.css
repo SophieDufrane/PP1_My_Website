@@ -23,7 +23,6 @@ h3 {
     font-family: "Abel", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    font-size: 1.5em;
 }
 
 /* Header section */
@@ -78,7 +77,7 @@ nav {
 }
 
 main {
-    margin-top: 44px;
+    margin-top: 55px;
     /* shorthand for flex-grow, flex-shrink, flex-basis > Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
@@ -113,16 +112,8 @@ main {
     margin: 20px auto;
 }
 
-#presentation h2 {
+#presentation>h2 {
     margin-bottom: 20px;
-}
-
-
-#about-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 #about-me-pitch hr {
@@ -131,15 +122,36 @@ main {
     margin: 5px 0 15px 0;
 }
 
-#shape-img {
+#about-me-pitch {
+    margin-bottom: 20px;
+}
+
+/* Button style */
+#about-me-button {
+    background-color: #df6243;
+    color: #fafafa;
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+#about-me-button:hover {
+    background-color: #fafafa;
+    border: 1px solid #df6243;
+    color: #df6243;
+}
+
+#image {
     background: url("./images/picture-me-black-white.webp") no-repeat top center / cover;
     transform: scaleX(-1);
-    height: 90vw;
-    width: 90vw;
+    height: 300px;
+    width: 300px;
     margin-left: 15px;
     border-radius: 25% 0 25% 0;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 footer {
