@@ -107,6 +107,17 @@ main {
     text-align: center;
 }
 
+#about-me-img {
+    background: url("./images/picture-me-black-white.webp") no-repeat top center / cover;
+    transform: scaleX(-1);
+    height: 90vw;
+    width: 90vw;
+    margin: 20px 0;
+    border-radius: 25% 0 25% 0;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 footer {
     background-color: #525152;
 }
