@@ -224,14 +224,14 @@ main {
 /* Portfolio page */
 #portfolio {
     width: 90%;
-    margin: 20px auto;
+    margin: 20px auto ;
 }
 
 #portfolio-display {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-grow: 1;
+    flex-direction: column;
+    gap: 10px;
     border: 2px solid #df6243;
 }
 
