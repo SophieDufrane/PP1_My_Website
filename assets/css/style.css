@@ -81,7 +81,6 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 /* Welcome section */
@@ -221,6 +220,30 @@ main {
 
 .skills-detail-icon i {
     font-size: 1.5rem;
+}
+/* Portfolio page */
+#portfolio {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#portfolio-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 1;
+    border: 2px solid #df6243;
+}
+
+.work-preview {
+    background-color: #b4a797;
+    border: 2px solid #df6243;
+    margin: 10px;
+    text-align: center;
+}
+
+.work-preview img {
+    width: 100%;
 }
 
 /* Contact page */
