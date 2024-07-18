@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project1 styles */
     font-family: "Montserrat", sans-serif;
 }
 
@@ -116,14 +115,22 @@ main {
     margin-bottom: 20px;
 }
 
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#about-me-pitch {
+    text-align: left;
+}
+
 #about-me-pitch hr {
     border-top: 1px solid #252525;
     max-width: 300px;
     margin: 5px 0 15px 0;
-}
-
-#about-me-pitch {
-    margin-bottom: 20px;
 }
 
 /* Button style */
@@ -163,11 +170,23 @@ main {
     margin-bottom: 20px;
 }
 
-#skills-detail-blue,
-#skills-detail-beige,
-#skills-detail-orange {
-    color: #fafafa;
+#skills-set {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills-detail {
+    display: flex;
+    align-items: center;
     padding: 10px;
+    color: #fafafa;
 }
 
 #skills-detail-blue {
@@ -182,19 +201,20 @@ main {
     background-color: #df6243;
 }
 
-.skills-detail-list li {
+.skills-detail-list {
     list-style-type: none;
     padding: 5px;
+    margin: 0 0 0 10px;
+}
+
+.skills-detail-list li {
+    padding: 5px 0;
     font-size: 1rem;
 }
 
 .skills-detail-icon i {
     font-size: 1.5rem;
 }
-
-
-
-
 
 /* Footer section */
 footer {
@@ -214,4 +234,30 @@ footer {
     font-size: 150%;
     padding: 5px;
 
+}
+
+/* media queries for screens 768px and larger */
+@media (min-width: 768px) {
+
+    #presentation {
+        max-width: 80%;
+    }
+
+    #about-me {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #about-me-pitch {
+        max-width: 60%;
+    }
+
+    #skills {
+        max-width: 80%;
+    }
+
+    #skills-set {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
