@@ -76,9 +76,12 @@ nav {
 }
 
 main {
-    margin-top: 55px;
+    margin-top: 54px;
     /* shorthand for flex-grow, flex-shrink, flex-basis > Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Welcome section */
@@ -109,6 +112,7 @@ main {
 #presentation {
     width: 90%;
     margin: 20px auto;
+    max-width: 1200px;
 }
 
 #presentation h2 {
@@ -164,6 +168,7 @@ main {
 #skills {
     width: 90%;
     margin: 20px auto;
+    max-width: 1200px;
 }
 
 #skills h2 {
@@ -173,10 +178,12 @@ main {
 #skills-set {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: flex-start;
+    gap: 25px;
 }
 
 .skills-overview {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -259,5 +266,9 @@ footer {
     #skills-set {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .skills-detail {
+        min-height: 210px;
     }
 }
