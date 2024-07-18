@@ -223,6 +223,38 @@ main {
     font-size: 1.5rem;
 }
 
+/* Contact page */
+#contact {
+    background: url("./images/contact-mail-black-white.webp") no-repeat center center/cover;
+    width: 100%;
+    height: 500px; /* How to cover the fulll screen?? */
+}
+
+#contact-form {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid #fafafa;
+    color: #364a75;
+    font-weight: 500;
+    padding: 30px;
+    max-width: 400px;
+}
+
+#contact-form>h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #df6243;
+}
+
+.text-input, .text-area {
+    background: transparent;
+    color: #364a75;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
 /* Footer section */
 footer {
     background-color: #525152;
