@@ -255,6 +255,10 @@ main {
     margin: auto;
 }
 
+.work-preview img:hover {
+    border: 2px solid #df6243;
+}
+
 /* Contact page */
 #contact {
     height: 100vh;
