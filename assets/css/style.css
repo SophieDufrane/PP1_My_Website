@@ -258,7 +258,7 @@ main {
     align-items: center;
     margin: auto;
     overflow: hidden;
-    /* Ensure any overflow is hidden */
+    /* Ensures any overflow is hidden */
 }
 
 .work-preview-img img {
