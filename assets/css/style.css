@@ -343,9 +343,18 @@ footer {
     .skills-detail {
         min-height: 190px;
     }
-/* CHECK IF THERE'S ANOTHER WAY TO STYLE FOR BIGGER SCREENS */
-    #contact-form {
-        margin-left: 350px;
-        margin-top: 150px;
+
+    #portfolio-section {
+        max-width: 80%;
+    }
+
+    #portfolio-display {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .work-preview {
+        flex:  1 1 calc(50% - 25px);
     }
 }
