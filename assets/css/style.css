@@ -248,18 +248,23 @@ main {
     margin: 5px 0 15px 0;
 }
 
-.work-preview-picture {
-    background-color: #5251523d;
+.work-preview-img {
+    background-color: transparent;
     width: 400px;
     height: 250px;
-    box-shadow:10px 5px 5px #364a75bb;
-    display: block;
+    box-shadow: 10px 5px 5px #364a75bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    overflow: hidden;
+    /* Ensure any overflow is hidden */
 }
 
-.work-preview img {
-    width: 100%;
-    text-align: center;
+.work-preview-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image fits within the container */
 }
 
 .work-preview-picture:hover {
@@ -362,6 +367,6 @@ footer {
     }
 
     .work-preview {
-        flex:  1 1 calc(50% - 25px);
+        flex: 1 1 calc(50% - 25px);
     }
 }
