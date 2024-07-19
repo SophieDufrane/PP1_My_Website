@@ -248,14 +248,21 @@ main {
     margin: 5px 0 15px 0;
 }
 
-.work-preview img {
-    width: 80%;
+.work-preview-picture {
+    background-color: #5251523d;
+    width: 400px;
+    height: 250px;
     box-shadow:10px 5px 5px #364a75bb;
     display: block;
     margin: auto;
 }
 
-.work-preview img:hover {
+.work-preview img {
+    width: 100%;
+    text-align: center;
+}
+
+.work-preview-picture:hover {
     border: 2px solid #df6243;
 }
 
