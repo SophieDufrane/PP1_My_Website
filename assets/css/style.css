@@ -239,7 +239,7 @@ main {
 }
 
 .work-preview {
-    padding: 20px auto;
+    padding: 20px 0;
 }
 
 .work-preview hr {
@@ -262,8 +262,7 @@ main {
 }
 
 .work-preview-img img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
     object-fit: contain; /* Ensures the image fits within the container */
 }
 
