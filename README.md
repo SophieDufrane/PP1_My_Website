@@ -100,7 +100,7 @@ I confirmed that the Website and its functionnalities are working on all devises
 ![Checkup CSS](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_css_check.png)
 
 - Lighthouse
-    - Performance is the main issue to be fixed on Portfolio and Contact pages (69%)
+    - Performance is the main issue that has to be fixed on Portfolio and Contact pages. It was at 69% first, then resizing the images improved the performance that is now 90%
     - Accessibility is 95%. It was at 92% on the Home page (not enough contrast on the skills-set sectio) so I've changed the boxes colors to improve the score.
     - Best practices is 100%
     - SEO is 100%
@@ -109,8 +109,6 @@ I confirmed that the Website and its functionnalities are working on all devises
 
 ### Unfixed Bugs:
 
-The metric "Performance" of the Portfolio and Contact pages is a too low (69%) due to the images sizing.
-I've tried to reduce the size and worked on the style.css but wasn't able to improve more than the existing performance so far.
 
 ## Deployment:
 - The site was deployed to GitHub following the steps below:
@@ -126,11 +124,12 @@ I've tried to reduce the size and worked on the style.css but wasn't able to imp
 ## Credits:
 
 ### Content
-- The icons in the footer and the "Menu" one were taken from Font Awesome.
+- The footer icons and the "Menu" one on the navbar were taken from Font Awesome.
 - The fonts Abel and Montserrat were taken from Google Fonts.
+- The skills-set lists are from the Code Institute "FullStack Software development" brochure.
 
 ### Media
-- The pictures used on Home, Portfolio and Contact pages are from Freepick.
+- The pictures are from Freepick.
 
 ### Source code
-- The code for navbar with toggle menu comes from the "Love Running" project of Code Institute.
+- The code for the navbar with toggle menu comes from the Code Institute "Love Running" project.
