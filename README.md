@@ -18,7 +18,7 @@ The "users" targeted with this website are recruiters, employers and also the we
     - The other pages have links into the navbar too, they are in the right corner of the navigation bar: "Portfolio" and "Contact".
     - As the background color is in a dark grey, the menu items are well contrasted and easy to read.
 
-![Nav bar](/../project1-v2/assets/media/my_website_navbar.png)
+![Nav bar](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_navbar.png)
 
 - __Welcome section__
 
@@ -26,7 +26,7 @@ The "users" targeted with this website are recruiters, employers and also the we
     - A Welcome message overlays the background with a contrasted text color to make it visible.
     - This first section provides the user with a taste of my work / style.
 
-![Welcome](/../project1-v2/assets/media/my_website_welcome.png)
+![Welcome](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_welcome.png)
 
 - __About Me section__
 
@@ -35,14 +35,14 @@ The "users" targeted with this website are recruiters, employers and also the we
     - There's a button "Contact Me!" right below the text, as a shortcut to go to the contact page and access to the contact form.
     - There's a contrasted color to make it evident and easy to see as get in contact with users (potential recruiters) would be the main purpose of this website.
 
-![About Me](/../project1-v2/assets/media/my_website_about_me.png)
+![About Me](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_about_me.png)
 
 - __Skills-set section__
 
     - Following the introduction, there's a summary of the main skills. The users can have an overview of my domain of expertise.
     - Skills are splits in 3 different categories or sets, there are a list of the skills and an icon that represent each category. All blocs have a different background color to make it catchy.
 
-![Skills-set](/../project1-v2/assets/media/my_website_skills_set.png)
+![Skills-set](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_skills_set.png)
 
 - __Footer__
 
@@ -50,14 +50,14 @@ The "users" targeted with this website are recruiters, employers and also the we
     - There's a dark grey background and all the icons for social network are in white color to be visible.
     - All links open a new tab when clicked.
 
-![Footer](/../project1-v2/assets/media/my_website_footer.png)
+![Footer](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_footer.png)
 
 - __Portfolio Page__  
 
     - The portfolio page is composed with several blocs with a title and a visual for each "works".
     - The blocs will be linked to the websites pages as this has been done for the first one, which is the current Website.
 
-![Portfolio](/../project1-v2/assets/media/my_website_portfolio.png)
+![Portfolio](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_portfolio.png)
 
 - __Contact Page__ 
 
@@ -65,7 +65,7 @@ The "users" targeted with this website are recruiters, employers and also the we
     - A form overlays the image with a contrasted box and text, to make it visible. The weight of the characters has also been styled to make it easier to read.
     - This form's purpose is to get in touch with the owner of the website. It collects the visitor's name, email and displays a text area for the message.
 
-![Contact](/../project1-v2/assets/media/my_website_contact.png)
+![Contact](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_contact.png)
 
 ### Features left to implement:
 
@@ -86,18 +86,18 @@ I confirmed that the Website and its functionnalities are working on all devises
 ### Validator testing:
 
 - HTML
-  - Document checking completed. No errors or warnings to show. [W3C for Home page](https://validator.w3.org/nu/#textarea)
+  - Home page: Document checking completed. No errors or warnings to show.
 
-  - Document checking completed. No errors or warnings to show. [W3C for Portfolio page](https://validator.w3.org/nu/#textarea)
+  - Portfolio page: Document checking completed. No errors or warnings to show.
 
-  - Document checking completed. No errors or warnings to show. [W3C for Contact page](https://validator.w3.org/nu/#textarea)
+  - Contact page: Document checking completed. No errors or warnings to show.
 
-![Checkup HTML](/../project1-v2/assets/media/my_website_home_html_check.png)
+![Checkup HTML](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_home_html_check.png)
 
 - CSS
-  - No errors were found when passing through the official [W3C CSS (Jigsaw)](http://jigsaw.w3.org/css-validator/check/referer)
+  - No errors were found when passing through the official
 
-![Checkup CSS](/../project1-v2/assets/media/my_website_css_check.png)
+![Checkup CSS](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_css_check.png)
 
 - Lighthouse
     - Performance is the main issue to be fixed on Portfolio and Contact pages (69%)
@@ -105,11 +105,11 @@ I confirmed that the Website and its functionnalities are working on all devises
     - Best practices is 100%
     - SEO is 100%
 
-![Checkup Lighthouse](/../project1-v2/assets/media/my_website_lighthouse_home.png)
+![Checkup Lighthouse](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_lighthouse_home.png)
 
 ### Unfixed Bugs:
 
-The performance of the Portfolio and Contact pages is a too low (69%) due to the images sizing.
+The metric "Performance" of the Portfolio and Contact pages is a too low (69%) due to the images sizing.
 I've tried to reduce the size and worked on the style.css but wasn't able to improve more than the existing performance so far.
 
 ## Deployment:
