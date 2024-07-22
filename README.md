@@ -1,131 +1,116 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sophie's Portfolio Website
 
-Welcome Sophie Dufrane,
+## Website:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website's purpose is to display the owner's work as a full-stack developer, with a brief presentation (pitch) a summary of the skills set, portfolio and a contact page to send a message and get in touch.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+The "users" targeted are recruiters, employers and also the web-development community.
 
-## Gitpod Reminders
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features:
 
-`python3 -m http.server`
+### Existing features:
 
-A blue button should appear to click: _Make Public_,
+- __Navigation Bar__
 
-Another blue button should appear to click: _Open Browser_.
+    - At the top of the page, the navigation bar displays a Logo made from the owner name's initial letters, this logo is also linked to the top of the home page, as a shortcut to come back to the landing page.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+    - Other links for the other pages are in the right corner of the navigation bar: Portfolio and Contact.
 
-A blue button should appear to click: _Make Public_,
+    - As the background color is in dark grey, the menu items are well contrasted and easy to read.
 
-Another blue button should appear to click: _Open Browser_.
+    - All menu items have also a functionality that underlines the text when we are on the page selected.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Header__
 
-To log into the Heroku toolbelt CLI:
+    - Under the navigation menu, an image that represents lines of codes serves as a background. The image is a reference to programming.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - A Welcome message with my name overlays the background with a contrasted text color to make it visible.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+    - This first section provides the user with a taste of my work / style.
 
-### Connecting your Mongo database
+- __About Me section__
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+    - This section starts with the job title "Full-Stack Developer".
 
-------
+    - Then there's a brief introduction, more like a pitch, and a picture, like for a resume. 
 
-## Release History
+    - There's a button "Contact Me!" right below the text, as a shortcut to go to the contact page and access to the form.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    - There's a contrasted color to make it evident and easy to see and get in contact would be the main purpose of this website.
 
-**June 18, 2024,** Add Mongo back into template
+- __Skills-set section__
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+    - Following the introduction, there's a summary of the skills. The users can have an overview of the owner's expertise.
 
-**May 28 2024:** Fix Mongo and Links installs
+    - Skills are splits in 3 different categories, there are a list of the skills and an icon that represent each category.  All blocs have a different background color to make it catchy.
 
-**April 26 2024:** Update node version to 16
+- __Footer__
 
-**September 20 2023:** Update Python version to 3.9.17.
+    - The style of the footer is close to the navigation bar one, to make the website consistent.
+    
+    - There's a dark grey background and all the icons for social network display in white to be visible.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - All links open a new tab when clicked. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Portfolio Page__  
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    - The portfolio page is composed with several blocs with the works visual and a title.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    - The blocs will be linked to the websites pages.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Contact Page__ 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    - There's a background image in dark grey color, to illustrates the contact page.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    - A form overlays the image with a contrasted box and text, to make it visible.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    - This form's purpose is to get in touch with the owner of the website. It collects the visitor's name, email and displays a text area for the message.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Features left to implement:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+As this is too early to display my work, I've only added static images to the Portfolio page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Validator testing:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- HTML
+  - No errors were returned when passing through the official [W3C validator Home page](https://validator.w3.org/nu/#textarea)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - No errors were returned when passing through the official [W3C validator Portfolio page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
-------
+  - No errors were returned when passing through the official [W3C validator Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 
-## FAQ about the uptime script
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) W£C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-**Why have you added this script?**
+- Lighthouse
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### Unfixed Bugs:
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Performances of the Portfolio page due to sizing of the images.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment:
+- The site was deployed to GitHub. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the master branch has been selected, refresh the Codes page. A detailed ribbon display to indicate the successful deployment.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The live link can be found here: https://sophiedufrane.github.io/project1-v2/
 
-**So….?**
+## Credits:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content
+- The icons in the footer were taken from Font Awesome.
+- The fonts Abel and Montserrat were taken from Google Fonts.
 
-**Can I opt out?**
+### Media
+- The pictures used on the home, Portfolio and contact pages are from freepick.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Source code
+- The code for navbar with toggle menu comes from the "Love Running" project of Code Institute.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
