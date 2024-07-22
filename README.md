@@ -2,11 +2,11 @@
 
 ## Website:
 
-This website's purpose is to display the owner's work as a full-stack developer, with a brief presentation (pitch) a summary of the skills set, portfolio and a contact page to send a message and get in touch.
+This website's purpose is to display my work as a full-stack developer, with a brief presentation, a skills set summary (at the moment, based on the programme syllabus!), a portfolio and a contact page to send a message and get in touch.
 
-The "users" targeted are recruiters, employers and also the web-development community.
+The "users" targeted with this website are recruiters, employers and also the web-development community.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/media/my_website_mockup.png)
 
 ## Features:
 
@@ -14,103 +14,113 @@ The "users" targeted are recruiters, employers and also the web-development comm
 
 - __Navigation Bar__
 
-    - At the top of the page, the navigation bar displays a Logo made from the owner name's initial letters, this logo is also linked to the top of the home page, as a shortcut to come back to the landing page.
+    - At the top of the page, the navigation bar displays a Logo made from my name's initial letters, this logo is also linked to the top of the home page, as a shortcut when moving to the other pages.
+    - The other pages have links into the navbar too, they are in the right corner of the navigation bar: "Portfolio" and "Contact".
+    - As the background color is in a dark grey, the menu items are well contrasted and easy to read.
 
-    - Other links for the other pages are in the right corner of the navigation bar: Portfolio and Contact.
+![Nav bar](assets/media/my_website_navbar.png)
 
-    - As the background color is in dark grey, the menu items are well contrasted and easy to read.
+- __Welcome section__
 
-    - All menu items have also a functionality that underlines the text when we are on the page selected.
-
-- __Header__
-
-    - Under the navigation menu, an image that represents lines of codes serves as a background. The image is a reference to programming.
-
-    - A Welcome message with my name overlays the background with a contrasted text color to make it visible.
-
+    - Under the navigation menu, an image that represents lines of code serves as a background. The image is a reference to programming.
+    - A Welcome message overlays the background with a contrasted text color to make it visible.
     - This first section provides the user with a taste of my work / style.
+
+![Welcome](assets/media/my_website_welcome.png)
 
 - __About Me section__
 
     - This section starts with the job title "Full-Stack Developer".
+    - Then there's a brief introduction, more like a pitch, and a picture (resume style). 
+    - There's a button "Contact Me!" right below the text, as a shortcut to go to the contact page and access to the contact form.
+    - There's a contrasted color to make it evident and easy to see as get in contact with users (potential recruiters) would be the main purpose of this website.
 
-    - Then there's a brief introduction, more like a pitch, and a picture, like for a resume. 
-
-    - There's a button "Contact Me!" right below the text, as a shortcut to go to the contact page and access to the form.
-
-    - There's a contrasted color to make it evident and easy to see and get in contact would be the main purpose of this website.
+![About Me](assets/media/my_website_about_me.png)
 
 - __Skills-set section__
 
-    - Following the introduction, there's a summary of the skills. The users can have an overview of the owner's expertise.
+    - Following the introduction, there's a summary of the main skills. The users can have an overview of my domain of expertise.
+    - Skills are splits in 3 different categories or sets, there are a list of the skills and an icon that represent each category. All blocs have a different background color to make it catchy.
 
-    - Skills are splits in 3 different categories, there are a list of the skills and an icon that represent each category.  All blocs have a different background color to make it catchy.
+![Skills-set](assets/media/my_website_skills_set.png)
 
 - __Footer__
 
     - The style of the footer is close to the navigation bar one, to make the website consistent.
-    
-    - There's a dark grey background and all the icons for social network display in white to be visible.
+    - There's a dark grey background and all the icons for social network are in white color to be visible.
+    - All links open a new tab when clicked.
 
-    - All links open a new tab when clicked. 
+![Footer](assets/media/my_website_footer.png)
 
 - __Portfolio Page__  
 
-    - The portfolio page is composed with several blocs with the works visual and a title.
+    - The portfolio page is composed with several blocs with a title and a visual for each "works".
+    - The blocs will be linked to the websites pages as this has been done for the first one, which is the current Website.
 
-    - The blocs will be linked to the websites pages.
+![Portfolio](assets/media/my_website_portfolio.png)
 
 - __Contact Page__ 
 
     - There's a background image in dark grey color, to illustrates the contact page.
-
-    - A form overlays the image with a contrasted box and text, to make it visible.
-
+    - A form overlays the image with a contrasted box and text, to make it visible. The weight of the characters has also been styled to make it easier to read.
     - This form's purpose is to get in touch with the owner of the website. It collects the visitor's name, email and displays a text area for the message.
+
+![Contact](assets/media/my_website_contact.png)
 
 ### Features left to implement:
 
-As this is too early to display my work, I've only added static images to the Portfolio page.
+As this is too early to display many works, I've only added one (this Website) and added the link to the image. 
+
+The other images come from Freepik and have the same link as the Project #1.
 
 ## Testing:
 
 ### Validator testing:
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator Home page](https://validator.w3.org/nu/#textarea)
+  - Document checking completed. No errors or warnings to show. [W3C for Home page](https://validator.w3.org/nu/#textarea)
 
-  - No errors were returned when passing through the official [W3C validator Portfolio page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Document checking completed. No errors or warnings to show. [W3C for Portfolio page](https://validator.w3.org/nu/#textarea)
 
-  - No errors were returned when passing through the official [W3C validator Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Document checking completed. No errors or warnings to show. [W3C for Contact page](https://validator.w3.org/nu/#textarea)
+
+![Checkup HTML](assets/media/my_website_home_html_check.png)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) W£C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [W3C CSS (Jigsaw)](http://jigsaw.w3.org/css-validator/check/referer)
+
+![Checkup CSS](assets/media/my_website_css_check.png)
 
 - Lighthouse
-
+    - Performance is the main issue to be fixed on Portfolio and Contact pages (69%)
+    - Accessibility is 95%. It was at 92% on the Home page (not enough contrast on the skills-set sectio) so I've changed the boxes colors to improve the score.
+    - Best practices is 100%
+    - SEO is 100%
 
 ### Unfixed Bugs:
 
-Performances of the Portfolio page due to sizing of the images.
+The performance of the Portfolio and Contact pages is a too low (69%) due to the images sizing.
+I've tried to reduce the size and worked on the style.css but wasn't able to improve more than the existing performance so far.
 
 ## Deployment:
-- The site was deployed to GitHub. The steps to deploy are as follows:
-    - In the GitHub repository, navigate to the Settings tab.
-    - From the source section drop-down menu, select the Master Branch.
-    - Once the master branch has been selected, refresh the Codes page. A detailed ribbon display to indicate the successful deployment.
+- The site was deployed to GitHub following the steps below:
+    - In the GitHub repository, navigate to the "Settings" tab.
+    - In the "Pages" menu, from the "Source" dropdown list, select "Deploy from a Branch".
+    - On the branch section select "main" Branch and "Root" Folder.
+    - Go back to the "Code" tab and refresh.
+    - THe ribbon at the top will display a green icon when it has been deployed correctly.
+    - On Deployment section check the link for the deploid website.
 
 - The live link can be found here: https://sophiedufrane.github.io/project1-v2/
 
 ## Credits:
 
 ### Content
-- The icons in the footer were taken from Font Awesome.
+- The icons in the footer and the "Menu" one were taken from Font Awesome.
 - The fonts Abel and Montserrat were taken from Google Fonts.
 
 ### Media
-- The pictures used on the home, Portfolio and contact pages are from freepick.
+- The pictures used on Home, Portfolio and Contact pages are from Freepick.
 
 ### Source code
 - The code for navbar with toggle menu comes from the "Love Running" project of Code Institute.
-
-
