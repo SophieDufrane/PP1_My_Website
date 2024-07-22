@@ -6,7 +6,7 @@ This website's purpose is to display my work as a full-stack developer, with a b
 
 The "users" targeted with this website are recruiters, employers and also the web-development community.
 
-![Responsive Mockup](/../project1-v2/assets/media/my_website_mockup.png)
+![Responsive Mockup](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_mockup.png)
 
 ## Features:
 
