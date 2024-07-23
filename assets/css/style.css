@@ -239,7 +239,7 @@ main {
 }
 
 .work-preview {
-    padding: 20px 0;
+    padding: 20px auto;
 }
 
 .work-preview hr {
@@ -250,8 +250,8 @@ main {
 
 .work-preview-img {
     background-color: transparent;
-    width: 400px;
-    height: 250px;
+    width: 300px;
+    height: 200px;
     box-shadow: 10px 5px 5px #364a75bb;
     display: flex;
     justify-content: center;
@@ -263,7 +263,8 @@ main {
 
 .work-preview-img img {
     width: 100%;
-    object-fit: contain; /* Ensures the image fits within the container */
+    object-fit: contain;
+    /* Ensures the image fits within the container */
 }
 
 .work-preview-picture:hover {
@@ -329,8 +330,13 @@ footer {
 /* media queries for screens 768px and larger */
 @media (min-width: 768px) {
 
+    /* Presentation section */
     #presentation {
         max-width: 80%;
+    }
+
+    #presentation h2 {
+        margin-bottom: 0;
     }
 
     #about-me {
@@ -342,6 +348,7 @@ footer {
         max-width: 60%;
     }
 
+    /* Skills section */
     #skills-section {
         max-width: 80%;
     }
@@ -355,6 +362,7 @@ footer {
         min-height: 190px;
     }
 
+    /* Portfolio page */
     #portfolio-section {
         max-width: 80%;
     }
@@ -367,5 +375,10 @@ footer {
 
     .work-preview {
         flex: 1 1 calc(50% - 25px);
+    }
+
+    .work-preview-img {
+        width: 350px;
+        height: 220px;
     }
 }
