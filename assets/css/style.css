@@ -235,7 +235,7 @@ main {
 #portfolio-display {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 
 .work-preview {
@@ -246,6 +246,10 @@ main {
     border-top: 2px solid #df6243;
     max-width: 150px;
     margin: 5px 0 15px 0;
+}
+
+.work-preview p {
+    margin-bottom: 10px;
 }
 
 .work-preview-img {
@@ -378,11 +382,11 @@ footer {
     #portfolio-display {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 20px;
     }
 
     .work-preview {
-        flex: 1 1 calc(50% - 25px);
+        flex: 1 1 calc(50% - 20px);
     }
 
     .work-preview-img {
@@ -395,7 +399,6 @@ footer {
 @media (min-width: 992px) {
 
     /* Presentation section */
-
     #about-me {
         max-width: 80%;
         margin-left: 10%;
@@ -408,4 +411,5 @@ footer {
     .skills-detail-list li {
         font-size: 1rem;
     }
+
 }
