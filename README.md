@@ -4,7 +4,7 @@
 
 This website's purpose is to display my work as a full-stack developer, with a brief presentation, a skills set summary (at the moment, based on the Code Institute programme syllabus), a portfolio and a contact page with a form to get in touch.
 
-The "users" targeted with this website are recruiters, employers and also the web-development community.
+The users targeted with this website are recruiters, employers and also the web-development community.
 
 ![Responsive Mockup](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_mockup.png)
 
@@ -33,7 +33,7 @@ The "users" targeted with this website are recruiters, employers and also the we
     - This section is structured as a resume and starts with a job title "Full-Stack Developer".
     - Then there's a brief introduction or pitch, and finally a picture. 
     - There's a button "Contact Me!" right below the text, it's also a shortcut to go to the contact page and access to the form.
-    - Teh button has a contrasted color to make it evident and easy to see. Getting in contact with users (potential recruiters) would be the main purpose of this website.
+    - The button has a contrasted color to make it evident and easy to see. Getting in contact with users (potential recruiters) would be the main purpose of this website.
 
 ![About Me](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_about_me.png)
 
@@ -55,9 +55,9 @@ The "users" targeted with this website are recruiters, employers and also the we
 
 - __Portfolio Page__  
 
-    - The portfolio page is composed with several blocs with a title and a visual for each project.
-    - The images will open the project pages when clicked.
-    - The forst project being the current Website and currently the only real project. The others are only visuals to illustrate how the page will look like.
+    - The portfolio page is composed with several blocs with a title, a short sentence to introduce the project and a visual.
+    - The images will open the project pages when clicked (website page).
+    - The first project is the current Website and the only real project. The others are only visuals from **Freepik** to illustrate how the page will look.
 
 ![Portfolio](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_portfolio.png)
 
@@ -69,37 +69,33 @@ The "users" targeted with this website are recruiters, employers and also the we
 
 ![Contact](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_contact.png)
 
+
+### Other tools used:
+- The footer icons and the Menu icon on the navbar were taken from **Font Awesome**.
+- The fonts Abel and Montserrat were taken from **Google Fonts**.
+
 ### Features left to implement:
 
 As this is too early to display many projects, I've only added one (this Website). 
-
-The other images come from Freepik and have the same link as the Project #1 for now.
+The other images are not linked to other website pages, they are just visuals and will be replaced by real projects in the future.
 
 ## Testing:
 
-I've tested the website on Chrome and Firefox, I also used Chrome developer tools to check responsiveness.
-
-I have used a mobile and different devises to see how the website looks like on different screen sizes.
-
-I have tested the form and check if all the required fields are set-up correctly.
-
-I have clicked on all footer icones to see if the correct pages open in a new tab. Same with the Menu, and buttons.
-
-I confirmed that the Website and its functionnalities are working on all devises tested.
+- I've tested the website on Chrome and Firefox, I also used Chrome developer tools to check responsiveness.
+- I have used a mobile and different devises to see how the website looks like on different screen sizes.
+- I have tested the form and check if all the required fields are set-up correctly.
+- I have clicked on all footer icones to see if the correct pages open in a new tab. Same with the Menu, and buttons.
+- I confirmed that the Website and its functionnalities are working on all devises tested.
 
 ### Validator testing:
 
 - HTML
-  - Home page: Document checking completed. No errors or warnings to show.
-
-  - Portfolio page: Document checking completed. No errors or warnings to show.
-
-  - Contact page: Document checking completed. No errors or warnings to show.
+Document checking completed. No errors or warnings to show.
 
 ![Checkup HTML](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_home_html_check.png)
 
 - CSS
-  - No errors were found when passing through the official CSS W3C Jigsaw.
+No errors were found when passing through the official CSS W3C Jigsaw.
 
 ![Checkup CSS](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_css_check.png)
 
@@ -111,10 +107,9 @@ I confirmed that the Website and its functionnalities are working on all devises
 
 ![Checkup Lighthouse](https://github.com/SophieDufrane/project1-v2/blob/main/assets/media/my_website_lighthouse_home.png)
 
-### Unfixed Bugs:
+### Improvements:
 
-The About-me scetion could have a better look when using screens 768px and bigger, the title "About Me" looks slightly disconnected from the rest of the section. 
-
+The About-me section could have a better look on screens 768px and bigger, the title "About Me" looks slightly disconnected from the rest of the section. 
 I remove the bottom-margin of the h2 on bigger screens to improve the visual, however I think this can be improved to make the visual more consistent.
 
 ## Deployment:
@@ -131,12 +126,10 @@ I remove the bottom-margin of the h2 on bigger screens to improve the visual, ho
 ## Credits:
 
 ### Content
-- The footer icons and the Menu icon on the navbar were taken from **Font Awesome**.
-- The fonts Abel and Montserrat were taken from **Google Fonts**.
 - The skills-set items (lists) are from the **Code Institute "FullStack Software development" brochure**.
 
 ### Media
 - The pictures are from **Freepick**.
 
 ### Source code
-- The code for the navbar with toggle menu comes from the **Code Institute "Love Running" project**.
+- The design and functionnality of the navbar, using a toggle menu, comes from the **Code Institute "Love Running" project**.
