@@ -330,9 +330,13 @@ footer {
 /* media queries for screens 768px and larger */
 @media (min-width: 768px) {
 
+    h2 {
+        font-size: 1.5rem;
+    }
+
     /* Presentation section */
     #presentation {
-        max-width: 80%;
+        max-width: 85%;
     }
 
     #presentation h2 {
@@ -350,7 +354,7 @@ footer {
 
     /* Skills section */
     #skills-section {
-        max-width: 80%;
+        max-width: 85%;
     }
 
     #skills-set {
@@ -359,12 +363,16 @@ footer {
     }
 
     .skills-detail {
-        min-height: 190px;
+        min-height: 180px;
+    }
+
+    .skills-detail-list li {
+        font-size: 14px;
     }
 
     /* Portfolio page */
     #portfolio-section {
-        max-width: 80%;
+        max-width: 85%;
     }
 
     #portfolio-display {
@@ -380,5 +388,24 @@ footer {
     .work-preview-img {
         width: 350px;
         height: 220px;
+    }
+}
+
+/* media queries for screens 992px and larger */
+@media (min-width: 992px) {
+
+    /* Presentation section */
+
+    #about-me {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+    .skills-detail {
+        min-height: 210px;
+    }
+
+    .skills-detail-list li {
+        font-size: 1rem;
     }
 }
