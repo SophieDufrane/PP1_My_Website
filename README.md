@@ -110,7 +110,7 @@ No errors were found when passing through the official CSS W3C Jigsaw.
 ### Improvements:
 
 The About-me section could have a better look on screens 768px and bigger, the title "About Me" looks slightly disconnected from the rest of the section. 
-I remove the bottom-margin of the h2 on bigger screens to improve the visual, however I think this can be improved to make the visual more consistent.
+I removed the bottom-margin of the h2 on bigger screens to improve the visual, however I think this can be improved to make the visual more consistent.
 
 ## Deployment:
 - The site was deployed to GitHub following the steps below:
