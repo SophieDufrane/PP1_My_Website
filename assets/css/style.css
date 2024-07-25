@@ -260,7 +260,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 15px auto;
     overflow: hidden;
     /* Ensures any overflow is hidden */
 }
@@ -276,11 +276,14 @@ main {
 }
 
 /* Contact page */
+
 #contact {
-    height: 100vh;
+    flex: 1;
     background: url("../images/contact-mail-black-white.webp") center center/cover no-repeat;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 #contact-form {
@@ -367,7 +370,7 @@ footer {
     }
 
     .skills-detail {
-        min-height: 180px;
+        min-height: 185px;
     }
 
     .skills-detail-list li {
@@ -379,19 +382,9 @@ footer {
         max-width: 85%;
     }
 
-    #portfolio-display {
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .work-preview {
-        flex: 1 1 calc(50% - 20px);
-    }
-
     .work-preview-img {
-        width: 350px;
-        height: 220px;
+        width: 500px;
+        height: 400px;
     }
 }
 
@@ -412,4 +405,18 @@ footer {
         font-size: 1rem;
     }
 
+    /* Portfolio page */
+    #portfolio-display {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .work-preview {
+        flex: 1 1 calc(50% - 15px);
+    }
+
+    .work-preview-img {
+        width: 300px;
+        height: 200px;
+    }
 }
