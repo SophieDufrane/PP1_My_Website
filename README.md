@@ -2,7 +2,7 @@
 
 ## Website:
 
-This website's purpose is to display my work as a full-stack developer, with a brief presentation, a skills set summary (at the moment, based on the Code Institute programme syllabus), a portfolio and a contact page with a form to get in touch.
+My [Portfolio Website](https://sophiedufrane.github.io/PP1_My_Website/) purpose is to display my work as a full-stack developer, with a brief presentation, a skills set summary (at the moment, based on the Code Institute programme syllabus), a portfolio and a contact page with a form to get in touch.
 
 The users targeted with this website are recruiters, employers and also the web-development community.
 
